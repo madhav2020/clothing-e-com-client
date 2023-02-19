@@ -1,0 +1,43 @@
+.container {
+    width: 15rem;
+    height: 20rem;
+    margin: var(--sm) var(--sm);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: var(--xs) solid var(--clr-accent);
+    border-radius: var(--sm);
+    cursor: pointer;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+    border-radius: var(--xxs);
+}
+
+.container h2 {
+    font-size: var(--sm);
+    font-weight: 9000;
+    color: var(--clr-dark);
+    background-color: var(--clr-accent);
+    align-self: flex-start;
+    padding: var(--xs) var(--sm);
+    box-shadow: 0;
+
+}
+
+.container p {
+    font-size: var(--sm);
+    font-weight: 9000;
+    color: var(--clr-dark);
+    background-color: var(--clr-accent);
+    align-self: flex-start;
+    padding: var(--xs) var(--sm);
+
+}

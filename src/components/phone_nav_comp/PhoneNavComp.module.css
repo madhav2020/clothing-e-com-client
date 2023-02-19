@@ -1,0 +1,26 @@
+.phone_main_container {
+    display: none;
+    position: sticky;
+    bottom: 0;
+}
+
+.phone_nav_container {
+    display: flex;
+    padding: var(--xs) var(--sm);
+    /* margin: var(--md) var(--md); */
+    justify-content: space-between;
+    background-color: var(--clr-main);
+    align-items: center;
+
+}
+
+img {
+    width: var(--md);
+}
+
+
+@media only screen and (max-width:450px) {
+    .phone_main_container {
+        display: block;
+    }
+}

@@ -1,0 +1,59 @@
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_container{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sm);
+    border: 1px solid var(--clr-accent);
+    padding: var(--sm);
+    box-shadow: 0px 0px 15px 0px rgb(252, 163, 17, 0.5);
+}
+.form_heading{
+    text-align: center;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
+.input_filed{
+    height: var(--xl);
+    width: 100%;
+    font-size: var(--md);
+    padding: var(--xs);
+    outline: none;
+    border: none;
+    border-radius: var(--xs);
+}
+
+.login_button{
+    width: 10rem;
+    border-radius: var(--xs);
+    height: var(--xl);
+    border: none;
+    font-size: var(--md);
+    cursor: pointer;
+    background-color:var(--clr-accent);
+}
+.login_button:hover{
+   
+    background-color: rgb(252, 163, 17, 0.8);
+}
+
+.redirection_link{
+    font-size: var(--sm);
+}
+.redirect_text{
+    color: var(--clr-main);
+    cursor: pointer;
+    margin-left: var(--xs);
+    
+}

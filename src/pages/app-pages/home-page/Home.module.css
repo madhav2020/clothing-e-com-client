@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+}
+
+.item_list {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 100%;
+}
